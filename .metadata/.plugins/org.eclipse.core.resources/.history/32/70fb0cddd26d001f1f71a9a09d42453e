@@ -1,0 +1,28 @@
+package com.digital_library_system.project.library_manage_sys.repos;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.digital_library_system.project.library_manage_sys.models.Author;
+
+public interface AuthorReops extends JpaRepository<Author, Integer>{
+	
+	//JPQL query
+	@Query(value= "Select a from Author a where a.email= :email")
+	Author findAuthor(String email) ;
+	
+	//@Query(value = "Select b from Author where b.email=:email and b.name=:name")
+	//Author findAuthorByEmailAndName(String email, String name);
+	
+	@Query(value = "Select b from Author where b.email=?1 and b.name=?2")
+	Author findAuthorByEmailAndName(String email, String name);
+	
+	
+	//sql native query
+	@Query(value="Select * from Author where name= :name", nativeQuery = true)
+	Author findAuthorByName(String name);
+	
+	
+
+}

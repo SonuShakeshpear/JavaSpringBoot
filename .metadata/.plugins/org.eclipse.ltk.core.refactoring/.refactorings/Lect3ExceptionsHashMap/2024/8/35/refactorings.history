@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.hashmaphashcode.HashSet&apos; to &apos;HashSetExamples&apos;&#x0A;- Original project: &apos;Lect3ExceptionsHashMap&apos;&#x0A;- Original element: &apos;com.hashmaphashcode.HashSet&apos;&#x0A;- Renamed element: &apos;com.hashmaphashcode.HashSetExamples&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HashSet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.hashmaphashcode{HashSet.java[HashSet" matchStrategy="1" name="HashSetExamples" qualified="false" references="true" similarDeclarations="false" stamp="1724653670913" textual="false" version="1.0"/>
+</session>

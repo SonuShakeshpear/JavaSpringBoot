@@ -1,0 +1,55 @@
+package com.hm.repos;
+
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.hm.model.Patient;
+
+@Repository
+
+public class PatientRepos {
+	
+	Logger logger = LoggerFactory.getLogger(PatientRepos.class);
+	private static Connection con;
+	
+	public PatientRepos() throws SQLException {
+		logger.info("inside PatientRepos Constructor");
+		// TODO Auto-generated constructor stub
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_sys","root", "8540985939");
+		createTable();
+		
+	}
+	
+	public void createTable() throws SQLException {
+		logger.info("inside createtable method");
+	    String sqlQuery = "create table if not exists Patient_JBDL61(patientId int primary key auto_increment,name varchar(50),age int,doctorName varchar(50))";
+	    Statement statement= con.createStatement();
+	    statement.execute(sqlQuery);
+	}
+	
+	public void insertPatient(Patient patient) throws SQLException {
+		logger.info("inside createPatient method");
+		String insertQuery = "INSERT INTO PATIENT(NAME, AGE, DOCTORNAME) VALUES(?,?,?)";
+		PreparedStatement preparedStatement = con.prepareStatement(insertQuery);
+		preparedStatement.setString(1, patient.getName());
+		preparedStatement.setInt(2, patient.getAge());
+		preparedStatement.setString(3, patient.getDoctorName());
+		
+		int val = preparedStatement.executeUpdate();
+		logger.info("patient added with val "+ val);
+		
+		
+	}
+	
+	
+
+}

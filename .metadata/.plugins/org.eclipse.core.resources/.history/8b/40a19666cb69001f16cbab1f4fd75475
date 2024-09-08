@@ -1,0 +1,9 @@
+package com.example.crudop.demo_crud;
+
+public class ChildClass {
+	
+	public String getChildClass() {
+		return "child class method";
+	}
+
+}

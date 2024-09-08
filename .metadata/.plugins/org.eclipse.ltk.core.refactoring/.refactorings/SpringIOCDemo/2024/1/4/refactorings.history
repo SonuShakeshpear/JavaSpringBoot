@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;SpringIOC/src/main/java/com.example.demo&apos;&#x0A;- Original project: &apos;SpringIOCDemo&apos;&#x0A;- Destination element: &apos;SpringIOC/src/main/java/com.example.demo&apos;&#x0A;- Original elements:&#x0A;     com.hustle.SuryaBulb.java&#x0A;     com.hustle.LGBulb.java&#x0A;     com.hustle.Bulb.java&#x0A;     com.hustle.BulbService.java" description="Copy compilation units" destination="=SpringIOC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo" element1="/src&lt;com.hustle{SuryaBulb.java" element2="/src&lt;com.hustle{LGBulb.java" element3="/src&lt;com.hustle{Bulb.java" element4="/src&lt;com.hustle{BulbService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1706114212146" units="4" version="1.0"/>
+</session>

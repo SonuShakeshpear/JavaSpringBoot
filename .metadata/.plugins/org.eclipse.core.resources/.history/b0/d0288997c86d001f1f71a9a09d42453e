@@ -1,0 +1,34 @@
+package com.digital_library_system.project.library_manage_sys.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.digital_library_system.project.library_manage_sys.models.Book;
+import com.digital_library_system.project.library_manage_sys.repos.BookRepos;
+
+@Service
+public class BookService {
+	@Autowired
+	BookRepos bookRepos;
+	
+	public void createBook(Book book) {
+		
+		bookRepos.save(book);
+		
+		
+	}
+
+	public List<Book> getAllBook() {
+		return bookRepos.findAll();
+		
+		
+	}
+
+	public Book getBookById(int bookId) {
+		
+		return bookRepos.findById(bookId).orElse(null);
+	}
+
+}

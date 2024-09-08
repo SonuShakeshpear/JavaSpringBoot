@@ -1,0 +1,20 @@
+package com.example.crudop.demo_crud;
+
+//import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import jakarta.validation.Valid;
+
+
+public class DiffRestContAndCont {
+	
+	@GetMapping(value= "/getEmployee")
+	public void getEmployee(@Valid  @RequestBody Employee employee) {
+		System.out.println("create employee hashcode" );
+	
+		
+		
+	}
+
+}

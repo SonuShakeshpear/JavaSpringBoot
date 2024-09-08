@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;edureka.jsp&apos; to &apos;pages&apos;&#x0A;- Original project: &apos;SubmissionForm&apos;&#x0A;- Destination element: &apos;pages&apos;&#x0A;- Original element: &apos;edureka.jsp&apos;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/WebApp/edureka.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1704712057132" target="src/main/WebApp/pages" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="book"/>
+		<item key="wrap" value="false"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="book"/>
+			<item value="BookControllers"/>
+			<item value="controller"/>
+			<item value="bean"/>
+			<item value="bookcontoller"/>
+			<item value="book]"/>
+			<item value="singleton "/>
+			<item value="singleton bean"/>
+			<item value="singleton"/>
+			<item value="hospitalcontroller"/>
+			<item value="hospital"/>
+			<item value="singletonbean"/>
+			<item value="Controller"/>
+			<item value="HospitalController"/>
+			<item value="bean2"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="552"/>
+		<item key="DIALOG_Y_ORIGIN" value="139"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>
