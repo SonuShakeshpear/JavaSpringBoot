@@ -6,7 +6,7 @@
 	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.2\/spring-boot-3.2.2.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/10.1.19\/tomcat-embed-core-10.1.19.jar&amp;lt;org.apache.catalina.startup(Tomcat.class[Tomcat&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SpringIOC/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.2\/spring-boot-3.2.2.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/src\/main\/java&amp;lt;com.example.SampleSpringApp{SampleSpringAppApplication.java[SampleSpringAppApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.4\/spring-boot-3.2.4.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpring/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.4\/spring-boot-3.2.4.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.2\/spring-boot-3.2.2.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/10.1.19\/tomcat-embed-core-10.1.19.jar&amp;lt;org.apache.catalina.startup(Tomcat.class[Tomcat&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/src\/main\/java&amp;lt;com.example.SampleSpringApp{SampleSpringAppApplication.java[SampleSpringAppApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SampleSpringApp/\/Users\/sonushakeshpear\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.2.4\/spring-boot-3.2.4.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_WIDTH" value="600"/>
@@ -16,5 +16,7 @@
 		</section>
 	</section>
 	<section name="expressionHistory">
+	</section>
+	<section name="conditionHistory">
 	</section>
 </section>

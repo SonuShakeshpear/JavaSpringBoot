@@ -1,2 +1,0 @@
-spring.application.name=democrudDB
-logging.level.root=trace

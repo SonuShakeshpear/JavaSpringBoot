@@ -14,6 +14,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/demo-junit"/>
+			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/demo-redis"/>
+			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/OAuth2"/>
+			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/springsecurity"/>
+			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/demo.spring-secartifact"/>
 			<item value="/Users/sonushakeshpear/Downloads/library-manage-sys"/>
 			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/JPAHibernate"/>
 			<item value="/Users/sonushakeshpear/Development/eclipse-workspace/democrudDB"/>

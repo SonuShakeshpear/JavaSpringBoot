@@ -1,4 +1,0 @@
-spring.application.name=demo-crud
-server.port=8081
-logging.level.root=debug
-#logging.level.com.example.crudop.demo_crud=debug

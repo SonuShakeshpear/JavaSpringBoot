@@ -1,3 +1,0 @@
-spring.application.name=democrudDB
-server.port=8081
-logging.level.root=debug

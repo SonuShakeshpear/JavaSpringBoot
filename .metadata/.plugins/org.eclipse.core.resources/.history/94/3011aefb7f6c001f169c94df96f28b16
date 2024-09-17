@@ -1,5 +1,0 @@
-package com.digital_library_system.project.library_manage_sys.createRequests;
-
-public class BookCreateRequest {
-
-}

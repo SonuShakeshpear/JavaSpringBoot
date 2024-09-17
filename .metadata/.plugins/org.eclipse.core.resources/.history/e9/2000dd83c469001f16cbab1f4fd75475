@@ -1,9 +1,0 @@
-spring.application.name=demo-crud
-server.port=8080
-logging.level.root=debug
-#logging.level.com.example.crudop.demo_crud=debug
-
-spring.profiles.active= production
-#logging.level.org.springframework.web=trace
-jbdl.batch.number=61
-batch.lecture.number=12
